@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,5 +40,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-postcss`,
   ],
 }
