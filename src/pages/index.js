@@ -9,25 +9,25 @@ import * as styles from "../components/index.module.css"
 const links = [
   {
     text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    url: "https://crod.dev",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
   },
   {
     text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    url: "https://crod.dev",
     description:
       "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
   },
   {
     text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
+    url: "https://crod.dev",
     description:
       "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
   },
   {
     text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    url: "https://crod.dev",
     description:
       "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
   },
@@ -47,24 +47,24 @@ const samplePageLinks = [
 ]
 
 const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+  { text: "Join us on Discord", url: "https://crod.dev" },
   {
     text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
+    url: "https://crod.dev",
   },
   {
     text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
+    url: "https://crod.dev",
   },
   {
     text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
+    url: "https://crod.dev",
   },
   {
     text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
+    url: "https://crod.dev",
   },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
+  { text: "Issues", url: "https://crod.dev" },
 ]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
