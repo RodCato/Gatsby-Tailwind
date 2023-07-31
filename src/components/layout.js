@@ -10,6 +10,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import About from "./about"
+import Projects from "./projects"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,25 +27,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <main>
+        <About />
+        <Projects />
+        </main>
+        <footer class="footer">
+          <a href="https://github.com/RodCato" class="link footer__link">
+            Created By CRod with 🫶🏽 || &copy; 2023 || 🎟️ Thanks for Visiting!
+            🎬
+          </a>
         </footer>
-      </div>
+      
     </>
   )
 }
