@@ -42,4 +42,5 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
   ],
+  pathPrefix: "/Gatsby-Tailwind",
 }
