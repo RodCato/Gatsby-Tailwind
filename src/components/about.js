@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-
+import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
   return (
@@ -9,12 +9,16 @@ const About = () => {
       <h1>
         🪄 Hi, I am <span className="about__name">Catalino.</span>
       </h1>
-      <img src="bluebgprofile.png" alt="profile pic" className="profilepic" />
+      <StaticImage
+        src="../images/bluebgprofile.png"
+        alt="profile pic"
+        className="profilepic"
+      />
       <h2 className="about__role">✨ A Full Stack Web Developer ⚡️</h2>
       <p class="about__desc">
         👋🏽 My name is Catalino Rodriguez (aka C Rod), and I am a US Army Combat
         Veteran🪖. Currently, I am expanding my skill set as a Software Engineer
-        at{" "}
+        at
         <a
           href="https://goloadup.com"
           target="_blank"
@@ -22,7 +26,7 @@ const About = () => {
           title="Load Up"
         >
           Load Up
-        </a>{" "}
+        </a>
         as an intern. I bring a unique blend of problem-solving skills,
         creativity, and real-world experience to the table. With a passion for
         helping others, I thrive on finding innovative solutions that address
@@ -51,7 +55,7 @@ const About = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faGithub} />{" "}
+          <FontAwesomeIcon icon={faGithub} />
         </a>
 
         <a

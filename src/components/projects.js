@@ -1,13 +1,13 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+
 
 const projects = () => {
   return (
     <div id="projects" className="section projects">
-      <h2 className="section__title">
-        🛠️ Projects
-      </h2>
+      <h2 className="section__title">🛠️ Projects</h2>
 
       <div className="projects__grid">
         {/* Project 1 */}
@@ -46,7 +46,7 @@ const projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             href="https://rodcato.github.io/jumpstart-treasure-hunt/"
@@ -55,7 +55,8 @@ const projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-<FontAwesomeIcon icon={faGithub} />          </a>
+            <FontAwesomeIcon icon={faExternalLinkAlt} />{" "}
+          </a>
         </div>
 
         {/* Project 2 */}

@@ -1,8 +1,8 @@
-.list {
+/* .list {
   display: grid;
-  margin: 0;
+  margin: 0; */
   /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
-  --w: 280px;
+  /* --w: 280px;
   --n: 2;
   gap: var(--size-gap);
   grid-template-columns: repeat(
@@ -51,4 +51,4 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
-}
+} */

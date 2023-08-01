@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMoon, faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Header = ({ siteTitle }) => (
+  <nav class="sticky-nav shadow-5-strong" >
   <header className="header center">
     <h2>
       <a href="https://github.com/RodCato" class="link">
@@ -47,6 +48,7 @@ const Header = ({ siteTitle }) => (
       </button>
     </nav>
   </header>
+  </nav>
 )
 
 export default Header
