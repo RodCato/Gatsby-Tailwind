@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const About = () => {
   return (
     <div className="about center">
-      <h1>
+      <h1 className="font-bold">
         🪄 Hi, I am <span className="about__name">Catalino.</span>
       </h1>
       <StaticImage
