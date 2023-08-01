@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[672],{206:function(e,t,a){a.r(t);var s=a(7294),l=a(1883);t.default=()=>s.createElement("div",{className:"text-2xl"},"test",s.createElement(l.Link,{to:"/"},"Home"))}}]);
+//# sourceMappingURL=component---src-pages-test-js-cd1b93aa33dffbbda35d.js.map
