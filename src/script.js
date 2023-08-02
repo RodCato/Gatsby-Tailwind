@@ -29,6 +29,29 @@ const Script = () => {
       setBtnTheme("fa-sun")
     }
   }
+  const openButton = document.querySelector("[open-modal]")
+  const closeButton = document.querySelector("[close-modal]")
+  const modal = document.querySelector("[page-modal]")
+
+  openButton.addEventListener("click", () => {
+    modal.showModal()
+  })
+
+  closeButton.addEventListener("click", () => {
+      modal.close()
+  })
+
+  modal.addEventListener("click", e => {
+    const dialogDimensions = modal.getBoundingClientRect()
+    if (
+      e.clientX < dialogDimensions.left ||
+      e.clientX > dialogDimensions.right ||
+      e.clientY < dialogDimensions.top ||
+      e.clientY > dialogDimensions.bottom
+    ) {
+      modal.close()
+    }
+  })
 
   return (
     <>

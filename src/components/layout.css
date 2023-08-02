@@ -444,7 +444,7 @@ dialog {
   border: none;
   border-radius: .2rem;
 }
-dialog::backdrop {
+[page-modal]::backdrop {
   background-color: hsla(0, 0%, 0%, 0.5);
 }
 .formcarry-container {

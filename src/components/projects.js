@@ -2,7 +2,7 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-
+import { StaticImage } from "gatsby-plugin-image"
 
 const projects = () => {
   return (
@@ -20,8 +20,8 @@ const projects = () => {
             aria-label="Demo"
             title="Demo"
           >
-            <img
-              src="screenshot.png"
+            <StaticImage
+              src="../images/screenshot.png"
               alt="Find the Loot screenshot"
               className="projectpic"
             />
@@ -69,8 +69,8 @@ const projects = () => {
             aria-label="Gamer Vault Demo"
             title="Gamer Vault Demo"
           >
-            <img
-              src="GamerVaultbrowsepage.png"
+            <StaticImage
+              src="../images/GamerVaultbrowsepage.png"
               alt="Gamer Vault website"
               className="projectpic"
             />
@@ -114,8 +114,8 @@ const projects = () => {
         {/* Project 3 */}
         <div className="project">
           <h3>Project 3</h3>
-          <img
-            src="projects1.jpeg"
+          <StaticImage
+            src="../images/projects1.jpeg"
             alt="Project 3 Placeholder"
             className="projectpic"
           />

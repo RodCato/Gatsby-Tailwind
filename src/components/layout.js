@@ -11,6 +11,7 @@ import Projects from "./projects"
 import Skills from "./skills"
 import Connect from "./connect"
 import Footer from "./footer"
+import Contact from "./contact"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -46,6 +47,7 @@ const Layout = ({ children }) => {
         <About />
         <Projects />
         <Skills />
+        <Contact />
         <Connect />
         <div className="scroll-container fixed bottom-10 right-10">
           <div className="scroll-top">
