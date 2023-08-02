@@ -1,5 +1,3 @@
-
-
 * {
   padding: 0;
   margin: 0;
@@ -68,7 +66,7 @@ h1 {
 
 h2 {
   font-size: 2.2rem;
-  font-weight:  900;
+  font-weight: 900;
 }
 
 h3 {
@@ -285,9 +283,9 @@ main {
   color: var(--clr-primary);
 }
 
-/* .about__role {
+.about__role {
   margin-top: 1.2em;
-} */
+}
 
 .about__desc {
   font-size: 1rem;
@@ -412,7 +410,6 @@ main {
   .display-nav-list {
     width: 100%;
   }
- 
 
   .nav__list-item {
     margin: 0.5em 0;
@@ -422,6 +419,16 @@ main {
     display: flex;
     margin-left: 0.8em;
   }
+.header {
+  position: relative;
+}
+
+.nav__hamburger {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
 
   .about {
     align-items: flex-start;
@@ -442,7 +449,7 @@ dialog {
   margin: auto;
   background: #0874f0;
   border: none;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 [page-modal]::backdrop {
   background-color: hsla(0, 0%, 0%, 0.5);
@@ -460,9 +467,9 @@ dialog {
   width: 400px;
 
   /* NORMAL */
-  --fc-border-color: #ECEFF9;
-  --fc-normal-text-color: #0E0B3D;
-  --fc-normal-placeholder-color: #B3B8D0;
+  --fc-border-color: #eceff9;
+  --fc-normal-text-color: #0e0b3d;
+  --fc-normal-placeholder-color: #b3b8d0;
 
   /* PRIMARY COLOR | HSL FORMAT*/
   --fc-primary-color-hue: 201;
@@ -471,11 +478,11 @@ dialog {
   --fc-error-hsl: var(--fc-error-color-hue), 100%, 54%;
 
   /* HOVER */
-  --fc-field-hover-bg-color: #F7F9FC;
-  --fc-border-hover-color: #DDE0EE;
-  --fc-field-hover-text-color: #B3B8D0;
+  --fc-field-hover-bg-color: #f7f9fc;
+  --fc-border-hover-color: #dde0ee;
+  --fc-field-hover-text-color: #b3b8d0;
 
-  --fc-border-active-color: #1463FF;
+  --fc-border-active-color: #1463ff;
 }
 
 .formcarry-container * {
@@ -505,13 +512,13 @@ dialog {
   color: var(--fc-normal-text-color);
   border-radius: 2px;
   padding: 8px 12px;
-  
+
   font-family: "Josefin Sans", sans-serif;
-  font-size:14px;
+  font-size: 14px;
   transition: 125ms background, 125ms color, 125ms box-shadow;
 }
 
-.formcarry-container textarea{
+.formcarry-container textarea {
   min-height: 188px;
   max-width: 100%;
   padding-top: 12px;
@@ -587,22 +594,25 @@ dialog {
   color: #fff;
   cursor: pointer;
   box-shadow: 0 0 0 0 transparent;
-  
+
   transition: 125ms all;
 }
 
 .formcarry-container button:hover {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), hsla(var(--fc-primary-hsl));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    hsla(var(--fc-primary-hsl));
 }
 
 .formcarry-container button:focus {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), hsla(var(--fc-primary-hsl));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    hsla(var(--fc-primary-hsl));
   border-inline: 1px solid inline rgba(255, 255, 255, 0.6);
   box-shadow: 0px 0px 0px 3px rgba(var(--fc-primary-hsl), 12%);
 }
 
 .formcarry-container button:active {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), hsla(var(--fc-primary-hsl));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    hsla(var(--fc-primary-hsl));
 }
 
 .formcarry-container button:disabled {
@@ -611,11 +621,10 @@ dialog {
 }
 
 .formcarry-container input:focus:required:invalid,
-.formcarry-container input:focus:invalid, 
+.formcarry-container input:focus:invalid,
 .formcarry-container select:focus:required:invalid,
-.formcarry-container select:focus:invalid
-{
-  color: hsl(var(--fc-error-hsl)); 
+.formcarry-container select:focus:invalid {
+  color: hsl(var(--fc-error-hsl));
   border-color: hsl(var(--fc-error-hsl));
   box-shadow: 0px 0px 0px 3px hsla(var(--fc-error-hsl), 12%);
 }
