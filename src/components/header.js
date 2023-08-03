@@ -14,12 +14,21 @@ const Header = ({ siteTitle }) => {
   return (
     <>
       <nav className="sticky-nav shadow-5-strong">
-        <header className="header center">
-          <h2>
-            <a href="https://github.com/RodCato" className="link">
-              CR.
-            </a>
-          </h2>
+        <header className="header center relative">
+          <div className="flex items-center">
+            <h2>
+              <a href="https://github.com/RodCato" className="link">
+                CR.
+                <span
+                  className="absolute top--3 left-1 -ml-2 -mt-2 text-lg transform -rotate-12"
+                  style={{ lineHeight: ".5" }}
+                >
+                  👑
+                </span>
+              </a>
+            </h2>
+          </div>
+
           <div className="nav-container">
             <nav className={`nav center ${showNav ? "display-nav-list" : ""}`}>
               <ul
@@ -62,7 +71,11 @@ const Header = ({ siteTitle }) => {
               }`}
               onClick={toggleNav}
             >
-              <FontAwesomeIcon icon={faBars} aria-hidden="true" />
+              <FontAwesomeIcon
+                icon={faBars}
+                aria-hidden="true"
+                className="font-extrabold"
+              />
             </button>
           </div>
         </header>

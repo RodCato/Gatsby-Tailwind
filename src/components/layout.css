@@ -418,18 +418,17 @@ main {
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
+     margin-top: 0.5px; 
   }
-.header {
-  position: relative;
-}
 
-.nav__hamburger {
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  transform: translateY(-50%);
-}
-
+  .header {
+    position: relative;
+    padding: 0.5rem 0.5rem; 
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
   .about {
     align-items: flex-start;
     margin-top: 2em;
