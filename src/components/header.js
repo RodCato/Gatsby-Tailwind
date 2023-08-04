@@ -1,7 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMoon, faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 import ThemeToggle from "./themetoggle" // Import the ThemeToggle component
 
 const Header = ({ siteTitle }) => {

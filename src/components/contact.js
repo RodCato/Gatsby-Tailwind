@@ -55,8 +55,8 @@ const Contact = () => {
           onRequestClose={closeModal}
           ariaHideApp={false} // This is required to prevent warnings in Gatsby
           contentLabel="Contact Modal"
-          className="modal" // Add 'modal' class here
-          overlayClassName="overlay" // Add 'overlay' class here
+          className="modal"
+          overlayClassName="overlay" 
         >
           <span>
             <button onClick={closeModal} className="btn btn--outline">
