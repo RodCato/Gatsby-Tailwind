@@ -1,16 +1,20 @@
-import React, { useEffect, useRef } from "react"
+import React, { useState } from "react"
+import Modal from "react-modal"
+import "./layout.css"
 
 const Contact = () => {
-  const modalRef = useRef(null)
+  const modalRef = React.useRef(null)
+  const [modalOpen, setModalOpen] = useState(false)
 
   const closeModal = () => {
-    const modal = modalRef.current
-    if (modal) {
-      modal.close()
-    }
+    setModalOpen(false)
   }
 
-  useEffect(() => {
+  const openModal = () => {
+    setModalOpen(true)
+  }
+
+  React.useEffect(() => {
     const modal = modalRef.current
 
     if (!modal) {
@@ -41,12 +45,24 @@ const Contact = () => {
     <div>
       <section className="section contact center" id="contact">
         <h2 className="section__title">📧 Contact</h2>
-        <span>
-          <button data-open-modal className="btn btn--outline">
+        <div className="contact-button-wrapper">
+          <button onClick={openModal} className="btn btn--outline">
             Contact Me
           </button>
-        </span>
-        <dialog ref={modalRef} data-page-modal="true">
+        </div>
+        <Modal
+          isOpen={modalOpen}
+          onRequestClose={closeModal}
+          ariaHideApp={false} // This is required to prevent warnings in Gatsby
+          contentLabel="Contact Modal"
+          className="modal" // Add 'modal' class here
+          overlayClassName="overlay" // Add 'overlay' class here
+        >
+          <span>
+            <button onClick={closeModal} className="btn btn--outline">
+              Close
+            </button>
+          </span>
           <section className="formcarry-container">
             <form
               action="https://forms.un-static.com/forms/5f3f4b43ffc40a85b4c09ed12187b0d948be6623"
@@ -102,7 +118,7 @@ const Contact = () => {
               </div>
             </form>
           </section>
-        </dialog>
+        </Modal>
       </section>
     </div>
   )
