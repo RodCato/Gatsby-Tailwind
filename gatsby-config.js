@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `CR. Portfolio`,
-        short_name: `CR.`,
+        short_name: `CR. ⚡️`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

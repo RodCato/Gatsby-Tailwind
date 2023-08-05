@@ -6,13 +6,13 @@ const Footer = () => {
     <div>
       <footer class="footer">
         <a href="https://github.com/RodCato" class="link footer__link">
-          Created By CRod | With 🫶🏽 &&
+          Created By 👑CRod | With 🫶🏽 &&
           <StaticImage
             src="../images/Gatsby_Monogram.png"
             alt="Gatsby Logo"
             className="object-scale-down h-4 w-4 mt-1 ml-2 mr-1 inline-block"
           />
-          | &copy; 2023 | 🎟️ Thanks for Visiting! 🎬
+          | &copy; 2023 | Thanks for Visiting! 🎬
         </a>
       </footer>
     </div>
