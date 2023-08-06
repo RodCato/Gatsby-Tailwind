@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `CR.`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `CR. Portfolio`,
+    author: `@croddev`,
+    siteUrl: `https://crod.dev`,
     icon: "/images/favicon-16x16.png",
   },
   plugins: [
@@ -43,5 +43,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/Gatsby-Tailwind",
 }
