@@ -16,7 +16,7 @@ const FormSuccess = () => {
       <h2>Message Sent Successfully!</h2>
       <p>Thank you for your submission. You will receive a reply soon.</p>
       <p>Redirecting to the main page in 5 seconds...</p>
-      <Link to="/">Go back to the main page</Link>
+      <Link to="https://crod.co/gp">Go back to the main page</Link>
     </div>
   )
 }
