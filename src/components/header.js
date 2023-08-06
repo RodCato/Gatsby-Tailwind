@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import ThemeToggle from "./themetoggle" // Import the ThemeToggle component
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const [showNav, setShowNav] = React.useState(false)
 
   const toggleNav = () => {

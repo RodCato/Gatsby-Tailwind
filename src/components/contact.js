@@ -7,7 +7,7 @@ const Contact = () => {
       <section className="section contact center" id="contact">
         <h2 className="section__title">📧 Contact</h2>
         <div className="contact-button-wrapper">
-          <button className="btn btn--outline">Contact Me</button>
+         🖋️ Fill out the form below to get in touch!
         </div>
         <section className="formcarry-container">
           <form
