@@ -39,7 +39,7 @@ const About = () => {
 
       <div className="about__contact center">
         <a
-          href="https://github.com/RodCato"
+          href="https://docs.google.com/document/d/1ZQhqMBec9mhOjIeQB2FmU6jOMqepdR5RKNPpdRLSl2U/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View my resume"
