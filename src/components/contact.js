@@ -7,11 +7,11 @@ const Contact = () => {
       <section className="section contact center" id="contact">
         <h2 className="section__title">📧 Contact</h2>
         <div className="contact-button-wrapper">
-         🖋️ Fill out the form below to get in touch!
+          🖋️ Fill out the form below to get in touch!
         </div>
         <section className="formcarry-container">
           <form
-            action="https://forms.un-static.com/forms/5f3f4b43ffc40a85b4c09ed12187b0d948be6623"
+            action="https://forms.un-static.com/forms/078940d91f85a17d83c249bf6a1a638d7b9882b2"
             method="post"
           >
             <div className="formcarry-block">
