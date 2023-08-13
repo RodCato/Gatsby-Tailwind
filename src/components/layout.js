@@ -12,8 +12,7 @@ import Skills from "./skills"
 import Connect from "./connect"
 import Footer from "./footer"
 import Contact from "./contact"
-import Seo from "./seo"
-import preview from "../images/preview.png"
+
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -32,7 +31,6 @@ const Layout = ({ children }) => {
 
   return (
     <>    
-      <Seo title="CRod Dev Portfolio" image={preview} />
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

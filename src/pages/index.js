@@ -4,6 +4,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import preview from "../images/preview.png"
 // import * as styles from "../components/index.module.css"
 
 // const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
@@ -21,6 +22,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="👑 Home" />
+export const Head = () => <Seo title="👑 CRod Portfolio" image={preview} />
 
 export default IndexPage
