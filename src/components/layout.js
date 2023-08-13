@@ -12,7 +12,7 @@ import Skills from "./skills"
 import Connect from "./connect"
 import Footer from "./footer"
 import Contact from "./contact"
-
+import previewImage from "../images/preview.png"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -30,8 +30,9 @@ const Layout = ({ children }) => {
   }
 
   return (
-    <>    
+    <>
       <Helmet>
+        <meta property="og:image" content={previewImage} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
