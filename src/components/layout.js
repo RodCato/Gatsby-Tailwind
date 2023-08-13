@@ -31,8 +31,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Seo />
       <Helmet>
-        <Seo />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
