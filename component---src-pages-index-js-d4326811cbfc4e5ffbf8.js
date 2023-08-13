@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{7602:function(e,t,a){a.r(t),a.d(t,{Head:function(){return f},default:function(){return l}});var r=a(7294),n=a(7483),u=a(9357),c=a.p+"static/preview-51152342cdd129450db76f2c005fb0e7.png";const f=()=>r.createElement(u.Z,{title:"👑 CRod Portfolio",image:c});var l=()=>r.createElement(n.Z,null)}}]);
-//# sourceMappingURL=component---src-pages-index-js-d4326811cbfc4e5ffbf8.js.map
