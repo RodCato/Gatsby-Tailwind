@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet-async"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
@@ -13,25 +13,26 @@ import Connect from "./connect"
 import Footer from "./footer"
 import Contact from "./contact"
 import Seo from "./seo"
+import preview from "../images/preview.png"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query pageQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query pageQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   return (
-    <>
-      <Seo title={data.site.siteMetadata?.title || `Title`} />
+    <>    
+      <Seo title="CRod Dev Portfolio" image={preview} />
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
