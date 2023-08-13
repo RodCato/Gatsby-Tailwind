@@ -14,7 +14,7 @@ const About = () => {
         alt="profile pic"
         className="profilepic"
       />
-      <h2 className="about__role">✨ A Full Stack Web Developer ⚡️</h2>
+      <h2 className="about__role">✨ A Software Engineer ⚡️</h2>
       <p class="about__desc">
         👋🏽 My name is Catalino Rodriguez (aka C Rod), and I am a US Army Combat
         Veteran🪖. Currently, I am expanding my skill set as a Software Engineer
