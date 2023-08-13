@@ -12,6 +12,7 @@ import Skills from "./skills"
 import Connect from "./connect"
 import Footer from "./footer"
 import Contact from "./contact"
+import Seo from "./seo"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
+        <Seo />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
