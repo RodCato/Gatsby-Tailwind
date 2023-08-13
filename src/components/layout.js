@@ -33,6 +33,11 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
         <meta property="og:image" content={previewImage} />
+        <meta property="og:title" content="👑CRodDev's Portfolio" />
+        <meta
+          property="og:description"
+          content="I'm a Software Engineer with a passion for learning new things, creativity and innovation. I love to build things that make a difference. I hope you enjoy my work!"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
