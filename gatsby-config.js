@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `CR.`,
+    title: `CRod's Portfolio.`,
     description: `CR. Portfolio`,
     author: `@croddev`,
     siteUrl: `https://crod.dev`,
@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-cname`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,7 +35,7 @@ module.exports = {
         name: `CR. Portfolio`,
         short_name: `CR. ⚡️`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#71ddf5`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
