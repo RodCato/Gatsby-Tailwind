@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `CRod's Portfolio.`,
+    title: `Software Engineer || Combat Veteran || Husband || Father`,
     description: `CR. Portfolio`,
     author: `@croddev`,
     siteUrl: `https://crod.dev`,

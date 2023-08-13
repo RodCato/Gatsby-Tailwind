@@ -24,12 +24,10 @@ const IndexPage = () => (
  */
 export const Head = () => (
   <>
-    <Seo title="👑CRod's Portfolio"/>
-    <meta property="og:image" content={previewImage} />
-    <meta property="og:title" content="👑CRod's Portfolio" />
-    <meta
-      property="og:description"
-      content="I'm a Software Engineer with a passion for learning new things, creativity and innovation. I love to build things that make a difference. I hope you enjoy my work!"
+    <Seo
+      title="👑CRod's Portfolio"
+      description="I'm a Software Engineer with a passion for learning new things, creativity and innovation. I love to build things that make a difference. I hope you enjoy my work!"
+      image={previewImage}
     />
   </>
 )
