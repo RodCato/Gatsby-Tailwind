@@ -25,7 +25,7 @@ const About = () => {
           alt="Load Up"
           title="Load Up"
         >
-          Load Up
+         <span> Load Up </span> 
         </a>
         as an intern. I bring a unique blend of problem-solving skills,
         creativity, and real-world experience to the table. With a passion for
