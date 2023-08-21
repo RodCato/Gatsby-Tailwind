@@ -505,7 +505,7 @@ dialog {
 .formcarry-container textarea,
 .formcarry-container select {
   margin-top: 4px;
-  width: 100%;
+  width: 90%;
   height: 42px;
   border: 1px solid var(--fc-border-color);
   color: var(--fc-normal-text-color);
@@ -519,7 +519,7 @@ dialog {
 
 .formcarry-container textarea {
   min-height: 188px;
-  max-width: 100%;
+  max-width: 90%;
   padding-top: 12px;
 }
 
@@ -633,7 +633,7 @@ dialog {
 
 /*=====  End of Fields  ======*/
 
-.modal {
+/* .modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -656,4 +656,4 @@ dialog {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
