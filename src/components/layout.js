@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
         <Skills />
         <Contact />
         <Connect />
-        <div className="scroll-container fixed bottom-10 right-10 z50 opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-100">
+        <div className="scroll-container fixed bottom-10 right-10 z-50 opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-100">
           <div className="scroll-top">
             <a
               aria-label="Scroll up"
