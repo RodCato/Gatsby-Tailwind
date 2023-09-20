@@ -9,15 +9,12 @@ const Experience = () => {
           💼 Experience
         </h2>
 
-        <div className="mb-6">
-         
-            <StaticImage
-              src="../images/loadup.png"
-              alt="Gamer Vault website"
-              className="projectpic w-full mb-4"
-            />
-          <p className="experience__description mb-4">
-          </p>
+        <div className="mb-6 flex justify-center items-center">
+          <StaticImage
+            src="../images/loadup.png"
+            alt="LoadUp logo"
+            className="projectpic w-full max-w-md mb-4" // max-w-md is added to limit the width, adjust as needed
+          />
         </div>
 
         <div className="mb-6">
