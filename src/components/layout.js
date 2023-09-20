@@ -12,6 +12,7 @@ import Connect from "./connect"
 import Footer from "./footer"
 import Contact from "./contact"
 import previewImage from "../images/preview.png"
+import Experience from "./experience"
 
 const Layout = ({ children }) => {
   const scrollToTop = () => {
@@ -53,6 +54,7 @@ const Layout = ({ children }) => {
       <Header />
       <main>
         <About />
+        <Experience />  
         <Projects />
         <Skills />
         <Contact />

@@ -37,6 +37,11 @@ const Header = () => {
                 }`}
               >
                 <li className="nav__list-item">
+                  <a className="link link--nav" href="#experience">
+                    💼 Experience
+                  </a>
+                </li>
+                <li className="nav__list-item">
                   <a className="link link--nav" href="#projects">
                     🛠️ Projects
                   </a>
@@ -48,17 +53,17 @@ const Header = () => {
                 </li>
                 <li className="nav__list-item">
                   <a className="link link--nav" href="#contact">
-                    💻 Contact
+                    📧 Contact
                   </a>
                 </li>
-                <li className="nav__list-item">
+                {/* <li className="nav__list-item">
                   <a
                     className="link link--nav"
                     href="https://www.catalinorodriguez.com"
                   >
                     📝 Blog
                   </a>
-                </li>
+                </li> */}
               </ul>
               <ThemeToggle />
             </nav>
