@@ -9,16 +9,13 @@ const projects = () => {
     <div id="projects" className="section projects">
       <h2 className="section__title">🛠️ Projects</h2>
 
-       <div className="projects__grid">
-    
-
+      <div className="projects__grid">
         {/* Project 2 */}
         <div className="project">
           <h3>Gamer Vault 🎮</h3>
           <a
-            href="https://gamer-vault.onrender.com/"
+            href="https://crod.co/gvs"
             target="_blank"
-            rel="noopener noreferrer"
             aria-label="Gamer Vault Demo"
             title="Gamer Vault Demo"
           >
@@ -65,7 +62,6 @@ const projects = () => {
         </div>
 
         {/* Project 3 */}
-        
       </div>
     </div>
   )
