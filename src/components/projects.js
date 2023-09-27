@@ -26,8 +26,8 @@ const projects = () => {
             />
           </a>
           <p className="project__description">
-            <div>
-              <h1>🎮Welcome to Gamer Vault!🎮</h1>
+            <div className="justify-start">
+              <h2>🎮Welcome to Gamer Vault!🎮</h2>
 
               <p>
                 As the enthusiastic Tech Lead of <strong>Gamer Vault</strong>,
@@ -35,7 +35,7 @@ const projects = () => {
                 and functional but also a joy for all gamers to use! 🌟
               </p>
 
-              <h2>Why You’ll Love Gamer Vault:</h2>
+              <h3>Why You’ll Love Gamer Vault:</h3>
               <p>
                 Effortless CRUD Operations: Gamer Vault allows users to smoothly
                 create, read, update, and delete data with no hassle, providing
@@ -58,7 +58,7 @@ const projects = () => {
                 cherished gaming moments at any time!
               </p>
 
-              <h2>Demo Ready & Fully Functional:</h2>
+              <h3>Demo Ready & Fully Functional:</h3>
               <p>
                 Dive in and experience the magic with our 100% functional demo!
                 Gamer Vault isn’t just a tech demonstration; it’s a living
@@ -66,7 +66,7 @@ const projects = () => {
                 understanding of both user needs and the latest tech trends.
               </p>
 
-              <h2>Why Recruit Me?</h2>
+              <h3>Why Recruit Me?</h3>
               <p>
                 Tech-Savvy Leader: As the guiding tech force behind Gamer Vault,
                 I’ve not only led but also learned, adapted, and innovated at
