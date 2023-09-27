@@ -26,61 +26,71 @@ const projects = () => {
             />
           </a>
           <p className="project__description">
-            🎮 Welcome to Gamer Vault! 🎮
-            
-            As the enthusiastic Tech Lead of GamerVault,
-            I’m excited to present an application that is not only robust
-            and functional but also a joy for all gamers to use!
-            
-            🌟 Why You’ll
-            Love Gamer Vault:
-            Effortless CRUD Operations: Gamer Vault allows
-            users to smoothly create, read, update, and delete data with no
-            hassle, providing a seamless experience for all.
-            
-            Secure Access:
-            With the integration of JWT and Devise, Gamer Vault ensures that user
-            authentication and authorization are secure, reliable, and
-            user-friendly!
-            
-            Instant Game Searches:
-            Just type and go! Our efficient API integration allows for instant access to a wide array
-            of games with just a simple search term.
-            
-            Your Personal Game Vault:
-            Discover a game that brings back fond memories? With Gamer Vault,
-            you can select and save any game to your personal "vault", allowing
-            you to revisit and relive those cherished gaming moments at any
-            time!
-            
-            Demo Ready & Fully Functional:
-            Dive in and experience the magic with our 100% functional demo!
-            
-            Gamer Vault isn’t just a tech demonstration; it’s a living example of a project built with
-            passion, precision, and a keen understanding of both user needs and
-            the latest tech trends.
-            
-            Why Recruit Me? Tech-Savvy Leader:
-            
-            As the
-            guiding tech force behind Gamer Vault, I not only led but also
-            learned, adapted, and innovated at every step.
-            
-            User-Centric
-            Developer: Gamer Vault is designed with users at its core, ensuring
-            an interface and experience that are intuitive, enjoyable, and
-            gamer-friendly.
-            
-            Detail-Oriented Professional: From the initial
-            concept to the final product, my commitment to detail and excellence
-            have been unwavering and evident in every aspect of Gamer Vault.
-            
-            🕹️
-            Immerse yourself in the Gamer Vault demo and explore a project that
-            is a true reflection of my technical skills, creativity, dedication,
-            and user-focused approach to development! I’m eager to connect and
-            discuss how my expertise and Gamer Vault’s innovative features can
-            meet and exceed your recruitment needs! 🕹️
+            <div>
+              <h1>🎮Welcome to Gamer Vault!🎮</h1>
+
+              <p>
+                As the enthusiastic Tech Lead of <strong>Gamer Vault</strong>,
+                I’m excited to present an application that is not only robust
+                and functional but also a joy for all gamers to use! 🌟
+              </p>
+
+              <h2>Why You’ll Love Gamer Vault:</h2>
+              <p>
+                Effortless CRUD Operations: Gamer Vault allows users to smoothly
+                create, read, update, and delete data with no hassle, providing
+                a seamless experience for all.
+              </p>
+              <p>
+                Secure Access: With the integration of JWT and Devise, Gamer
+                Vault ensures that user authentication and authorization are
+                secure, reliable, and user-friendly!
+              </p>
+              <p>
+                Instant Game Searches: Just type and go! Our efficient API
+                integration allows for instant access to a wide array of games
+                with just a simple search term.
+              </p>
+              <p>
+                Your Personal Game Vault: Discover a game that brings back fond
+                memories? With Gamer Vault, you can select and save any game to
+                your personal "vault", allowing you to revisit and relive those
+                cherished gaming moments at any time!
+              </p>
+
+              <h2>Demo Ready & Fully Functional:</h2>
+              <p>
+                Dive in and experience the magic with our 100% functional demo!
+                Gamer Vault isn’t just a tech demonstration; it’s a living
+                example of a project built with passion, precision, and a keen
+                understanding of both user needs and the latest tech trends.
+              </p>
+
+              <h2>Why Recruit Me?</h2>
+              <p>
+                Tech-Savvy Leader: As the guiding tech force behind Gamer Vault,
+                I’ve not only led but also learned, adapted, and innovated at
+                every step.
+              </p>
+              <p>
+                User-Centric Developer: Gamer Vault is designed with users at
+                its core, ensuring an interface and experience that are
+                intuitive, enjoyable, and gamer-friendly.
+              </p>
+              <p>
+                Detail-Oriented Professional: From the initial concept to the
+                final product, my commitment to detail and excellence have been
+                unwavering and evident in every aspect of Gamer Vault.
+              </p>
+
+              <p>
+                Immerse yourself in the Gamer Vault demo and explore a project
+                that is a true reflection of my technical skills, creativity,
+                dedication, and user-focused approach to development! I’m eager
+                to connect and discuss how my expertise and Gamer Vault’s
+                innovative features can meet and exceed your recruitment needs!
+              </p>
+            </div>
           </p>
           <ul className="project__stack">
             <li className="project__stack-item">Rails</li>
