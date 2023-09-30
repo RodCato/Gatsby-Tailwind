@@ -229,6 +229,7 @@ button {
   justify-content: center;
   margin: auto;
   box-shadow: 5px 2px 2px #444;
+  text-align: center;
 }
 
 .center {
