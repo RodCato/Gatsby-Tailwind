@@ -316,7 +316,7 @@ main {
 .project {
   padding: 2em;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }
