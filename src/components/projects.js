@@ -9,25 +9,25 @@ const projects = () => {
     <div id="projects" className="section projects">
       <h2 className="section__title">🛠️ Projects</h2>
 
-      <div className="projects__grid">
-        {/* Project 2 */}
-        <div className="project">
-          <h3>Gamer Vault 🎮</h3>
-          <a
-            href="https://crod.co/gvs"
-            target="_blank"
-            aria-label="Gamer Vault Demo"
-            title="Gamer Vault Demo"
-          >
-            <StaticImage
-              src="../images/GamerVaultbrowsepage.png"
-              alt="Gamer Vault website"
-              className="projectpic"
-            />
-          </a>
-          <p className="project__description">
-            <div className="justify-start">
-              <h2>🎮Welcome to Gamer Vault!🎮</h2>
+     <div className="projects__grid">
+  {/* Project 2 */}
+  <div className="project text-center">
+    <h3 className="text-xl font-bold mb-4">Gamer Vault 🎮</h3>
+    <a
+      href="https://crod.co/gvs"
+      target="_blank"
+      aria-label="Gamer Vault Demo"
+      title="Gamer Vault Demo"
+      className="inline-block"
+    >
+      <StaticImage
+        src="../images/GamerVaultbrowsepage.png"
+        alt="Gamer Vault website"
+        className="mx-auto projectpic"
+      />
+    </a>
+    <div className="project__description text-left mt-4">
+      <h2 className="text-2xl font-bold mb-4">🎮Welcome to Gamer Vault!🎮</h2>
 
               <p>
                 As the enthusiastic Tech Lead of <strong>Gamer Vault</strong>,
