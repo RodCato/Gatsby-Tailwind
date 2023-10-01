@@ -71,7 +71,7 @@ const Layout = ({ children }) => {
             </a>
           </div>
         </div>
-      </main> d fghfg
+      </main> 
       <Footer />
     </>
   )
