@@ -54,13 +54,13 @@ const Layout = ({ children }) => {
       <Header />
       <main>
         <About />
-        <Experience />  
+        <Experience />
         <Projects />
         <Skills />
         <Contact />
         <Connect />
         <div className="scroll-container fixed bottom-10 right-10 z-50 opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-100">
-          <div className="scroll-top">
+          <div className="scroll-top bounce">
             <a
               aria-label="Scroll up"
               href="#top"
@@ -71,7 +71,7 @@ const Layout = ({ children }) => {
             </a>
           </div>
         </div>
-      </main>
+      </main> d fghfg
       <Footer />
     </>
   )

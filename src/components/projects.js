@@ -27,8 +27,8 @@ const projects = () => {
             />
           </a>
           <div className="project__description text-left mt-4">
-            <h2 className="text-2xl font-bold mb-4">
-              🎮Welcome to Gamer Vault!🎮
+            <h2 className="text-2xl font-bold mb-4 text-center underline">
+              Welcome to Gamer Vault!
             </h2>
 
             <p>
@@ -36,61 +36,56 @@ const projects = () => {
               excited to present an application that is not only robust and
               functional but also a joy for all gamers to use! 🌟
             </p>
-
-            <h3>Why You’ll Love Gamer Vault:</h3>
+            <br />
+            <h3 class="text-center underline">Why You’ll Love Gamer Vault?</h3>
             <p>
-              Effortless CRUD Operations: Gamer Vault allows users to smoothly
+              🕹️Effortless CRUD Operations: Gamer Vault allows users to smoothly
               create, read, update, and delete data with no hassle, providing a
               seamless experience for all.
             </p>
             <p>
-              Secure Access: With the integration of JWT and Devise, Gamer Vault
-              ensures that user authentication and authorization are secure,
-              reliable, and user-friendly!
+              🕹️Secure Access: With the integration of JWT and Devise, Gamer
+              Vault ensures that user authentication and authorization are
+              secure, reliable, and user-friendly!
             </p>
             <p>
-              Instant Game Searches: Just type and go! Our efficient API
+              🕹️Instant Game Searches: Just type(or use <strong class="underline">Voice Search</strong>, which is even faster!!) and go! Our efficient API
               integration allows for instant access to a wide array of games
               with just a simple search term.
             </p>
             <p>
-              Your Personal Game Vault: Discover a game that brings back fond
+              🕹️Your Personal Game Vault: Discover a game that brings back fond
               memories? With Gamer Vault, you can select and save any game to
               your personal "vault", allowing you to revisit and relive those
               cherished gaming moments at any time!
             </p>
-
-            <h3>Demo Ready & Fully Functional:</h3>
+            <br />
+            <h3 class="text-center underline">Demo Ready & Fully Functional</h3>
             <p>
               Dive in and experience the magic with our 100% functional demo!
               Gamer Vault isn’t just a tech demonstration; it’s a living example
               of a project built with passion, precision, and a keen
               understanding of both user needs and the latest tech trends.
+              Immerse yourself in the Gamer Vault demo and explore a project
+              that is a true reflection of my technical skills, creativity,
+              dedication, and user-focused approach to development!
             </p>
-
-            <h3>Why Recruit Me?</h3>
+            <br />
+            <h3 class="text-center underline">Why Recruit Me?</h3>
             <p>
-              Tech-Savvy Leader: As the guiding tech force behind Gamer Vault,
+              🕹️Tech-Savvy Leader: As the guiding tech force behind Gamer Vault,
               I’ve not only led but also learned, adapted, and innovated at
               every step.
             </p>
             <p>
-              User-Centric Developer: Gamer Vault is designed with users at its
-              core, ensuring an interface and experience that are intuitive,
+              🕹️User-Centric Developer: Gamer Vault is designed with users at
+              its core, ensuring an interface and experience that are intuitive,
               enjoyable, and gamer-friendly.
             </p>
             <p>
-              Detail-Oriented Professional: From the initial concept to the
+              🕹️Detail-Oriented Professional: From the initial concept to the
               final product, my commitment to detail and excellence have been
               unwavering and evident in every aspect of Gamer Vault.
-            </p>
-
-            <p>
-              Immerse yourself in the Gamer Vault demo and explore a project
-              that is a true reflection of my technical skills, creativity,
-              dedication, and user-focused approach to development! I’m eager to
-              connect and discuss how my expertise and Gamer Vault’s innovative
-              features can meet and exceed your recruitment needs!
             </p>
           </div>
           <ul className="project__stack">
@@ -110,7 +105,7 @@ const projects = () => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href="https://gamer-vault.onrender.com/"
+            href="https://crod.co/gvs"
             aria-label="live preview"
             className="link link--icon"
             target="_blank"
@@ -121,7 +116,7 @@ const projects = () => {
         </div>
 
         {/* Project 3 */}
-        {/* ... Add your Project 3 code here ... */}
+        {/* ... placeholder for Project 2 code... */}
       </div>
     </div>
   )
