@@ -5,16 +5,22 @@ const Experience = () => {
   return (
     <>
       <div id="experience" className="section experience mt-8">
-        <h2 className="section__title">
-          💼 Experience
-        </h2>
+        <h2 className="section__title">💼 Experience</h2>
 
         <div className="mb-6 flex justify-center items-center">
+          <a
+            href="https://goloadup.com"
+            target="_blank"
+            aria-label="LoadUp"
+            title="goloadup.com"
+            className="inline-block"
+          >
           <StaticImage
             src="../images/loadup.png"
             alt="LoadUp logo"
-            className="projectpic w-full max-w-md mb-4" // max-w-md is added to limit the width, adjust as needed
+            className="projectpic w-full max-w-md mb-4"
           />
+          </a>
         </div>
 
         <div className="mb-6">
