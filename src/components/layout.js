@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Helmet } from "react-helmet-async"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
+import { faArrowUp, faAngleUp, faSquareCaretUp, faCircleArrowUp } from "@fortawesome/free-solid-svg-icons"
 
 import Header from "./header"
 import "./layout.css"
@@ -14,7 +14,7 @@ import Contact from "./contact"
 import previewImage from "../images/preview.png"
 import Experience from "./experience"
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
         <Skills />
         <Contact />
         <Connect />
-        <div className="scroll-container fixed bottom-10 right-10 z-50 opacity-30 transition-opacity duration-300 ease-in-out hover:opacity-100">
+        <div className="scroll-container z-50 opacity-30 transition-opacity duration-600 ease-in-out hover:opacity-100">
           <div className="scroll-top bounce">
             <a
               aria-label="Scroll up"
@@ -67,11 +67,11 @@ const Layout = ({ children }) => {
               onClick={scrollToTop}
               className="text-white bg-blue-500 rounded-full p-3"
             >
-              <FontAwesomeIcon icon={faArrowUp} />
+              <FontAwesomeIcon icon={faCircleArrowUp} />
             </a>
           </div>
         </div>
-      </main> 
+      </main>
       <Footer />
     </>
   )
