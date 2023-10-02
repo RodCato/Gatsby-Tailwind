@@ -23,17 +23,16 @@ body {
 }
 
 .light {
-  --clr-bg: hsla(0, 0%, 94%, 0.741);
+  --clr-bg: hsla(213, 72%, 87%, 0.902);
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
 
 .dark {
-  --clr-bg: #151721;
+  --clr-bg: #043863;
   --clr-bg-alt: #0063d5;
   --clr-fg: #e3e3ea;
   --clr-fg-alt: #ebebee;
@@ -431,12 +430,12 @@ main {
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
-     margin-top: 0.5px; 
+    margin-top: 0.5px;
   }
 
   .header {
     position: relative;
-    padding: 0.5rem 0.5rem; 
+    padding: 0.5rem 0.5rem;
   }
   .nav-container {
     display: flex;
@@ -644,9 +643,12 @@ dialog {
   margin: auto;
 }
 
-
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
 
