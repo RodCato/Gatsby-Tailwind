@@ -1,8 +1,7 @@
 import * as React from "react"
 import { Helmet } from "react-helmet-async"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowUp, faAngleUp, faSquareCaretUp, faCircleArrowUp } from "@fortawesome/free-solid-svg-icons"
-
+import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons"
 import Header from "./header"
 import "./layout.css"
 import About from "./about"
