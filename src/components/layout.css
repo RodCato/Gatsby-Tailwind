@@ -23,7 +23,7 @@ body {
 }
 
 .light {
-  --clr-bg: hsla(213, 72%, 87%, 0.902);
+  --clr-bg: hsla(214, 17%, 92%, 0.902);
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
