@@ -9,17 +9,17 @@ const Experience = () => {
 
         <div className="mb-6 flex justify-center items-center">
           <a
-            href="https://goloadup.com"
+            href="https://crod.co/glu"
             target="_blank"
             aria-label="LoadUp"
             title="goloadup.com"
             className="inline-block"
           >
-          <StaticImage
-            src="../images/loadup.png"
-            alt="LoadUp logo"
-            className="projectpic w-full max-w-md mb-4"
-          />
+            <StaticImage
+              src="../images/loadup.png"
+              alt="LoadUp logo"
+              className="projectpic w-full max-w-md mb-4"
+            />
           </a>
         </div>
 

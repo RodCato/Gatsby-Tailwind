@@ -20,7 +20,7 @@ const About = () => {
         Veteran🪖. Currently, I am expanding my skill set as a Software Engineer
         at
         <a
-          href="https://goloadup.com"
+          href="https://crod.co/glu"
           target="_blank"
           alt="Load Up"
           title="Load Up"
@@ -49,7 +49,7 @@ const About = () => {
 
         {/* Make sure to include Font Awesome stylesheet to display the icons */}
         <a
-          href="https://github.com/RodCato"
+          href="https://crod.co/github"
           aria-label="github"
           className="link link--icon"
           target="_blank"
@@ -59,7 +59,7 @@ const About = () => {
         </a>
 
         <a
-          href="https://linkedin.com/in/catalinorodriguez"
+          href="https://crod.co/LI"
           aria-label="linkedin"
           className="link link--icon"
           target="_blank"
