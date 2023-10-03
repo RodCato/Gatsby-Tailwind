@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer class="footer">
-        <a href="https://github.com/RodCato" class="link footer__link">
+        <a href="https://crod.co/github" class="link footer__link">
           Created By 👑CRod | With 🫶🏽 &&
           <StaticImage
             src="../images/Gatsby_Monogram.png"
