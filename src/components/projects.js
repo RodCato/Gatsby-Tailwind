@@ -18,14 +18,31 @@ const projects = () => {
             target="_blank"
             aria-label="Gamer Vault Demo"
             title="Gamer Vault Demo"
-            className="inline-block"
+            className="inline-block font-bold underline"
           >
-            <StaticImage
-              src="../images/GamerVaultbrowsepage.png"
-              alt="Gamer Vault website"
-              className="mx-auto projectpic"
-            />
+           🕹️ LIVE DEMO (CLICK HERE)
           </a>
+
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/2i77wuv6kFw?controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1&autoplay=1"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          {/* ...Other components and HTML below... */}
+
           <div className="project__description text-left mt-4">
             <h2 className="text-2xl font-bold mb-4 text-center underline">
               Welcome to Gamer Vault!
@@ -49,9 +66,10 @@ const projects = () => {
               secure, reliable, and user-friendly!
             </p>
             <p>
-              🕹️Instant Game Searches: Just type(or use <strong class="underline">Voice Search</strong>, which is even faster!!) and go! Our efficient API
-              integration allows for instant access to a wide array of games
-              with just a simple search term.
+              🕹️Instant Game Searches: Just type(or use{" "}
+              <strong class="underline">Voice Search</strong>, which is even
+              faster!!) and go! Our efficient API integration allows for instant
+              access to a wide array of games with just a simple search term.
             </p>
             <p>
               🕹️Your Personal Game Vault: Discover a game that brings back fond
