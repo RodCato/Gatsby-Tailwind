@@ -20,19 +20,12 @@ const projects = () => {
             title="Gamer Vault Demo"
             className="inline-block font-bold underline"
           >
-           🕹️ LIVE DEMO (CLICK HERE)
+            🕹️ LIVE DEMO (CLICK HERE)
           </a>
 
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="relative" style={{ paddingTop: "56.25%" }}>
             <iframe
-              width="560"
-              height="315"
+              className="absolute inset-0 w-full h-full"
               src="https://www.youtube.com/embed/2i77wuv6kFw?controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1&autoplay=1"
               title="YouTube video player"
               frameBorder="0"
