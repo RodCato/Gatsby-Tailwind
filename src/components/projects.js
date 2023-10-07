@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { StaticImage } from "gatsby-plugin-image"
+import VimeoVideo from "./vimeovideo"
 
 const projects = () => {
   return (
@@ -13,6 +14,8 @@ const projects = () => {
         {/* Project 2 */}
         <div className="project text-center">
           <h3 className="text-xl font-bold mb-4">Gamer Vault 🎮</h3>
+
+          <VimeoVideo />
           <a
             href="https://crod.co/gvs"
             target="_blank"
@@ -20,20 +23,8 @@ const projects = () => {
             title="Gamer Vault Demo"
             className="inline-block font-bold underline"
           >
-            🕹️ LIVE DEMO (CLICK HERE)
+            🕹️ Visit GamerVault 🔗
           </a>
-
-          <div className="relative" style={{ paddingTop: "56.25%" }}>
-            <iframe
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/2i77wuv6kFw?controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1&autoplay=1"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-
           {/* ...Other components and HTML below... */}
 
           <div className="project__description text-left mt-4">
