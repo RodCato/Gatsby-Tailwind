@@ -2,8 +2,8 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { StaticImage } from "gatsby-plugin-image"
-import VimeoVideo from "./vimeovideo"
+// import { StaticImage } from "gatsby-plugin-image"
+import Video from "./video"
 
 const projects = () => {
   return (
@@ -15,7 +15,7 @@ const projects = () => {
         <div className="project text-center">
           <h3 className="text-xl font-bold mb-4">Gamer Vault 🎮</h3>
 
-          <VimeoVideo />
+          <Video />
           <a
             href="https://crod.co/gvs"
             target="_blank"
