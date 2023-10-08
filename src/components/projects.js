@@ -99,7 +99,7 @@ const projects = () => {
           </ul>
 
           <a
-            href="https://github.com/RodCato"
+            href="https://crod.co/github"
             aria-label="source code"
             className="link link--icon"
             target="_blank"
