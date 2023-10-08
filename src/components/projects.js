@@ -16,20 +16,21 @@ const projects = () => {
           <h3 className="text-xl font-bold mb-4">Gamer Vault 🎮</h3>
 
           <Video />
-          <a
-            href="https://crod.co/gvs"
-            target="_blank"
-            aria-label="Gamer Vault Demo"
-            title="Gamer Vault Demo"
-            className="inline-block font-bold underline"
-          >
-            🕹️ Visit GamerVault 🔗
-          </a>
+
           {/* ...Other components and HTML below... */}
 
           <div className="project__description text-left mt-4">
             <h2 className="text-2xl font-bold mb-4 text-center underline">
-              Welcome to Gamer Vault!
+              <a
+                href="https://crod.co/gvs"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Gamer Vault Demo"
+                title="Gamer Vault Demo"
+                className="inline-block font-bold underline"
+              >
+                🕹️ Welcome to GamerVault 🔗
+              </a>
             </h2>
 
             <p>

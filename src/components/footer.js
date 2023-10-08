@@ -12,7 +12,7 @@ const Footer = () => {
             alt="Gatsby Logo"
             className="object-scale-down h-4 w-4 mt-1 ml-2 mr-1 inline-block"
           />
-          | &copy; 2023 | Thanks for Visiting! 🎬 
+          | &copy; 2023 | Thanks for Visiting! 🎬
         </a>
       </footer>
     </div>
