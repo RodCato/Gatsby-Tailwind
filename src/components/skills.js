@@ -115,8 +115,16 @@ const Skills = () => {
             />
           </li>
           <li className="skills__list-item btn btn--plain">
-            <img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white"
-                 alt="XCode" />
+            <img
+              src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"
+              alt="Heroku"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/github-actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"
+              alt="Github Actions"
+            />
           </li>
         </ul>
       </section>
