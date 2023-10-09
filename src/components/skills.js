@@ -90,6 +90,34 @@ const Skills = () => {
               alt="Yarn"
             />
           </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white"
+              alt="Gatsby"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
+              alt="Tailwind CSS"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"
+              alt="VS Code"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"
+              alt="Vercel"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white"
+                 alt="XCode" />
+          </li>
         </ul>
       </section>
     </div>
