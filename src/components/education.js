@@ -73,7 +73,7 @@ const Education = () => {
                 gem and JWT, supporting Full CRUD operations.
               </li>
               <li>
-                Spearheaded a Capstone Project as<a href="https://crod.co/TL" alt="tech-lead">Tech Lead</a>, developing and deploying a
+                Spearheaded a Capstone Project as <span className="underline"><a href="https://crod.co/TL" alt="tech-lead">Tech Lead</a></span>, developing and deploying a
                 Full-Stack application on Render with Full CRUD functionality
                 and JWT authentication, following agile and scrum methodologies.
               </li>
