@@ -59,7 +59,7 @@ const Education = () => {
                 Crafted intricate user interfaces and managed state with React.
               </li>
               <li>
-                Delved into backend development with Ruby, exploring MVC
+                Delved into backend development with Rails, exploring MVC
                 architecture, Active Record, and Postgresql management.
               </li>
               <li>
@@ -69,18 +69,18 @@ const Education = () => {
               </li>
               <li>
                 Developed and implemented secure user authentication and
-                authorization in Rails-hosted React applications using Devise
+                authorization in Rails Backend based React Frontend applications using Devise
                 gem and JWT, supporting Full CRUD operations.
               </li>
               <li>
-                Spearheaded a Capstone Project, developing and deploying a
+                Spearheaded a Capstone Project as<a href="https://crod.co/TL" alt="tech-lead">Tech Lead</a>, developing and deploying a
                 Full-Stack application on Render with Full CRUD functionality
                 and JWT authentication, following agile and scrum methodologies.
               </li>
             </ul>
             <strong>
               ✨ Recognized as MVP by peers for outstanding performance and
-              contributions.
+              contributions.👏🏽
             </strong>
           </p>
           <p className="font-semibold">Skills:</p>
