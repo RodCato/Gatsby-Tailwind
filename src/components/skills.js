@@ -126,6 +126,24 @@ const Skills = () => {
               alt="Github Actions"
             />
           </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink"
+              alt="JSON Web Tokens"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="https://img.shields.io/badge/Apple-MacBook_Pro_2021-999999?style=for-the-badge&logo=apple&logoColor=white"
+              alt="Macbook Pro 2021"
+            />
+          </li>
+          <li className="skills__list-item btn btn--plain">
+            <img
+              src="	https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white"
+              alt="Gimp"
+            />
+          </li>
         </ul>
       </section>
     </div>

@@ -42,6 +42,11 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav__list-item">
+                  <a className="link link--nav" href="#education">
+                    🎓 Education
+                  </a>
+                </li>
+                <li className="nav__list-item">
                   <a className="link link--nav" href="#projects">
                     🛠️ Projects
                   </a>
@@ -56,6 +61,7 @@ const Header = () => {
                     📧 Contact
                   </a>
                 </li>
+
                 {/* <li className="nav__list-item">
                   <a
                     className="link link--nav"

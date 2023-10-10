@@ -11,6 +11,7 @@ const Experience = () => {
           <a
             href="https://crod.co/glu"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="LoadUp"
             title="goloadup.com"
             className="inline-block"

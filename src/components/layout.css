@@ -664,6 +664,22 @@ dialog {
 .bounce {
   animation: bounce 6s infinite;
 }
+
+.thumbnail {
+  display: inline-block;
+  width: 100%; /*  width of thumbnail */
+  max-width: 200px; /* desired max width */
+}
+
+.projectpic {
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.thumbnail:hover .projectpic {
+  transform: scale(2.5); /* how much to scale */
+}
+
 /*=====  End of Fields  ======*/
 
 /* .modal {

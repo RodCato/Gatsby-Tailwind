@@ -12,6 +12,7 @@ import Footer from "./footer"
 import Contact from "./contact"
 import previewImage from "../images/preview.png"
 import Experience from "./experience"
+import Education from "./education"
 
 const Layout = () => {
   const scrollToTop = () => {
@@ -54,6 +55,7 @@ const Layout = () => {
       <main>
         <About />
         <Experience />
+        <Education />
         <Projects />
         <Skills />
         <Contact />
