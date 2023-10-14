@@ -6,15 +6,19 @@ import { StaticImage } from "gatsby-plugin-image"
 const About = () => {
   return (
     <div className="about center">
-      <h1 className="font-bold">
+      <h1 className="text-3xl sm:text-6xl font-bold mb-6">
         🪄 Hi, I am <span className="about__name">Catalino.</span>
       </h1>
+
       <StaticImage
         src="../images/bluebgprofile.png"
         alt="profile pic"
-        className="profilepic"
+        className="w-36 h-36 sm:w-60 sm:h-60 profilepic"
       />
-      <h2 className="about__role">✨ A Software Engineer 💻</h2>
+
+      <h2 className="about__role text-2xl sm:text-5xl font-bold">
+        ✨ A Software Engineer 💻
+      </h2>
       <p class="about__desc">
         👋🏽 My name is Catalino Rodriguez (aka C Rod), and I am a US Army Combat
         Veteran🪖. Currently, I am expanding my skill set as a Software Engineer
@@ -22,6 +26,7 @@ const About = () => {
         <a
           href="https://crod.co/glu"
           target="_blank"
+          rel="noreferrer"
           alt="Load Up"
           title="Load Up"
         >

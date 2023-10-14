@@ -213,11 +213,11 @@ button {
   justify-content: flex-start;
 }
 .profilepic {
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .projectpic {
@@ -286,6 +286,7 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  text-align: center;
 }
 
 .about__desc {
@@ -442,7 +443,7 @@ main {
     align-items: center;
   }
   .about {
-    align-items: flex-start;
+    align-items: center;
     margin-top: 2em;
   }
 
