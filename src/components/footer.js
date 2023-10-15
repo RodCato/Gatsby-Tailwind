@@ -26,7 +26,7 @@ const Footer = () => {
           </span>
           <img
             src="https://img.shields.io/badge/Made%20with%20-🫶🏽-2978b5.svg"
-            alt="Ask me Anything"
+            alt="Made with Love"
             class="inline-block"
           />
 
