@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Connect = () => {
   return (
@@ -18,19 +18,7 @@ const Connect = () => {
               />
             </a>
           </li>
-          <li>
-            {" "}
-            <a
-              href="https://crod.co/x"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
-                alt="Twitter"
-              />
-            </a>{" "}
-          </li>
+
           <li>
             <a
               href="https://crod.co/github"
@@ -42,6 +30,20 @@ const Connect = () => {
                 alt="Github"
               />
             </a>
+          </li>
+          <li>
+            {" "}
+            <a
+              href="https://crod.co/x"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/twitter/follow/CrodDev"
+                alt="X"
+                height="50px"
+              />
+            </a>{" "}
           </li>
           <li>
             {" "}
