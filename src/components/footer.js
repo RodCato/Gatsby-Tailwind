@@ -3,7 +3,7 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-centergg">
       <footer class="footer">
         <a
           href="https://crod.co/github"
