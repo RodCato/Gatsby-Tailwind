@@ -366,6 +366,7 @@ main {
   padding: 3em 0;
   margin-top: 4em;
   text-align: center;
+  z-index: 0;
 }
 
 .footer__link {
@@ -376,16 +377,17 @@ main {
 
 .scroll-top {
   position: fixed;
-  bottom: 1em;
-  right: 2em;
+  bottom: 4.5em;
+  right: 0.5em;
   background-color: transparent;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
+  z-index: 50;
 }
 
 @media (max-width: 600px) {
   .header {
-    height: 6em;
+    height: 4em;
   }
 
   .section {
@@ -406,11 +408,11 @@ main {
 
   .nav__list {
     flex-direction: column;
-    padding: 4em 0;
+    padding: 1em 0;
     position: absolute;
     right: 0;
     left: 0;
-    top: 5em;
+    top: 4em;
     background-color: var(--clr-bg);
     width: 0;
     overflow: hidden;
