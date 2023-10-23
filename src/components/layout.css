@@ -475,7 +475,7 @@ dialog {
   line-height: 24px;
   letter-spacing: -0.01em;
 
-  width: 400px;
+  width: 300px;
 
   /* NORMAL */
   --fc-border-color: #eceff9;
