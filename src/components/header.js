@@ -1,7 +1,7 @@
 import * as React from "react"
 // import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faExternalLink } from "@fortawesome/free-solid-svg-icons"
 import ThemeToggle from "./themetoggle" // Import the ThemeToggle component
 
 const Header = () => {
@@ -59,6 +59,15 @@ const Header = () => {
                 <li className="nav__list-item">
                   <a className="link link--nav" href="#contact">
                     📧 Contact
+                  </a>
+                </li>
+                <li className="nav__list-item">
+                  <a
+                    href="https://catalinorodriguez.com"
+                    aria-label="live preview"
+                  >
+                    📖blog&nbsp;
+                    <FontAwesomeIcon icon={faExternalLink} />
                   </a>
                 </li>
 

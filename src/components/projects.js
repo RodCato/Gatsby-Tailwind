@@ -4,6 +4,8 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // import { StaticImage } from "gatsby-plugin-image"
 import Video from "./video"
+// import GvLessons from "../pages/gvlessons"
+import { Link } from "gatsby"
 
 const projects = () => {
   return (
@@ -29,7 +31,8 @@ const projects = () => {
                 title="Gamer Vault Demo"
                 className="inline-block font-bold underline"
               >
-                🕹️ Welcome to GamerVault 🔗
+                🕹️ Welcome to GamerVault{" "}
+                <FontAwesomeIcon icon={faExternalLinkAlt} />
               </a>
             </h2>
 
@@ -90,6 +93,13 @@ const projects = () => {
               final product, my commitment to detail and excellence have been
               unwavering and evident in every aspect of Gamer Vault.
             </p>
+            <br />
+            <Link
+              to="https://catalinorodriguez.com/2023/10/22/gamer-vault-lessons-learned/"
+              className="underline"
+            >
+              Read more about my lessons learned on my blog 📖
+            </Link>
           </div>
           <ul className="project__stack">
             <li className="project__stack-item">Rails</li>
