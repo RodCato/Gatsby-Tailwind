@@ -13,6 +13,7 @@ import Contact from "./contact"
 import previewImage from "../images/preview.png"
 import Experience from "./experience"
 import Education from "./education"
+import BlogFeed from "./blogfeed"
 
 const Layout = () => {
   const scrollToTop = () => {
@@ -54,6 +55,7 @@ const Layout = () => {
       <Header />
       <main>
         <About />
+        <BlogFeed />
         <Experience />
         <Education />
         <Projects />
