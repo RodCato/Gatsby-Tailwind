@@ -1,36 +1,34 @@
-// src/components/BlogFeed.js
+// src/components/WordPressJsonFeed.js
 import React, { useEffect, useState } from "react"
 import axios from "axios"
-import xml2js from "xml-js"
 
-const BlogFeed = () => {
+const WordPressJsonFeed = () => {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    const fetchRSSFeed = async () => {
+    const fetchJsonFeed = async () => {
       try {
-        const response = await axios.get('https://catalinorodriguez.com/feed')
-        const json = xml2js.xml2json(response.data, { compact: true })
-        const jsonData = JSON.parse(json)
-        const items = jsonData.rss.channel.item
-        setPosts(items)
+        const response = await axios.get(
+          "https://catalinorodriguez.com/wp-json/"
+        )
+        setPosts(response.data)
       } catch (error) {
-        console.error("Error fetching RSS feed:", error)
+        console.error("Error fetching JSON feed:", error)
       }
     }
-    fetchRSSFeed()
+    fetchJsonFeed()
   }, [])
 
   return (
     <div>
       {posts.map((post, index) => (
         <div key={index}>
-          <h3>{post.title._text}</h3>
-          <p>{post.description._text}</p>
+          <h3>{post.title.rendered}</h3>
+          <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
         </div>
       ))}
     </div>
   )
 }
 
-export default BlogFeed
+export default WordPressJsonFeed
