@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react"
 import axios from "axios"
 
-const WordPressJsonFeed = () => {
+const BlogFeed = () => {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
@@ -31,4 +31,4 @@ const WordPressJsonFeed = () => {
   )
 }
 
-export default WordPressJsonFeed
+export default BlogFeed
