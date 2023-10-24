@@ -60,7 +60,7 @@ const Connect = () => {
             </a>
           </li>
           <li>
-            <a href="https://crod.co/wakatime" target="_blank">
+            <a href="https://crod.co/wakatime" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://wakatime.com/badge/user/36909aee-5bcd-487e-ba59-26e85f89c050.svg"
                 alt="Total time coded since Jun 3 2023"
