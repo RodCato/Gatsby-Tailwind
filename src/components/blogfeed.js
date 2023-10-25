@@ -28,7 +28,7 @@ const BlogFeed = () => {
             posts.map((post, index) => (
               <li key={index} className="mb-2">
                 <h3 className="text-xl">
-                  📄
+                  📄&nbsp;
                   <a
                     href={post.link}
                     target="_blank"
