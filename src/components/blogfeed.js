@@ -23,7 +23,7 @@ const BlogFeed = () => {
     <div id="blog" className="section experience mt-8">
       <h2 className="section__title">📖 From the Blog</h2>
       <div className="mb-6 flex justify-center items-center">
-        <ul className="list-disc list-inside">
+        <ul>
           {Array.isArray(posts) &&
             posts.map((post, index) => (
               <li key={index} className="mb-2">
