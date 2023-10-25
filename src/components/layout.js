@@ -55,7 +55,7 @@ const Layout = () => {
       <Header />
       <main>
         <About />
-        {/* <BlogFeed /> */}
+        <BlogFeed />
         <Experience />
         <Education />
         <Projects />
