@@ -19,19 +19,22 @@ const BlogFeed = () => {
     fetchJsonFeed()
   }, [])
 
-  return (
-    <div>
+    return (
+       <div id="experience" className="section experience mt-8">
+        <h2 className="section__title">📖 From the Blog</h2>
+    <div className="mb-6 flex justify-center items-center">
       {Array.isArray(posts) &&
         posts.map((post, index) => (
           <div key={index}>
-            <h3>
+            <h3>📄
               <a href={post.link} target="_blank" rel="noopener noreferrer">
                 {post.title.rendered}
               </a>
             </h3>
           </div>
         ))}
-    </div>
+            </div>
+            </div>
   )
 }
 
