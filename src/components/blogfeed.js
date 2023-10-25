@@ -9,7 +9,7 @@ const BlogFeed = () => {
     const fetchJsonFeed = async () => {
       try {
         const response = await axios.get(
-          "https://catalinorodriguez.com/wp-json/"
+          "https://catalinorodriguez.com/wp-json/wp/v2/posts"
         )
         setPosts(response.data)
       } catch (error) {
@@ -21,12 +21,13 @@ const BlogFeed = () => {
 
   return (
     <div>
-      {posts.map((post, index) => (
-        <div key={index}>
-          <h3>{post.title.rendered}</h3>
-          <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
-        </div>
-      ))}
+      {Array.isArray(posts) &&
+        posts.map((post, index) => (
+          <div key={index}>
+            <h3>{post.title.rendered}</h3>
+            <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+          </div>
+        ))}
     </div>
   )
 }
