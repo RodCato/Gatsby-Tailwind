@@ -53,14 +53,20 @@ const Layout = () => {
       />
 
       <Header />
-      <main>
+      <main className="container mx-auto">
         <About />
-        <BlogFeed />
         <Experience />
         <Education />
         <Projects />
         <Skills />
-        <Contact />
+        <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
+          <div className="md:w-1/2">
+            <Contact />
+          </div>
+          <div className="md:w-1/2">
+            <BlogFeed />
+          </div>
+        </div>
         <Connect />
         <div className="scroll-container z-50 opacity-30 transition-opacity duration-600 ease-in-out hover:opacity-100">
           <div className="scroll-top bounce">
