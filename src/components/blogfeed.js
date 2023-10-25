@@ -24,8 +24,11 @@ const BlogFeed = () => {
       {Array.isArray(posts) &&
         posts.map((post, index) => (
           <div key={index}>
-            <h3>{post.title.rendered}</h3>
-            <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+            <h3>
+              <a href={post.link} target="_blank" rel="noopener noreferrer">
+                {post.title.rendered}
+              </a>
+            </h3>
           </div>
         ))}
     </div>
