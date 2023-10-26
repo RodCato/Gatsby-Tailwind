@@ -63,7 +63,7 @@ const Layout = () => {
           <div className="md:w-1/2">
             <Contact />
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 p-4 md:p-0">
             <BlogFeed />
           </div>
         </div>
