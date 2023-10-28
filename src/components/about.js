@@ -17,7 +17,7 @@ const About = () => {
       />
 
       <h2 className="about__role text-2xl sm:text-5xl font-bold">
-        ✨ Full Stack Web Developer 💻
+        ✨ Full Stack Software Engineer 💻
       </h2>
       <p class="about__desc">
         👋🏽 Hey there, I am Catalino (aka C Rod), a US Army Combat Veteran🪖. I've carried forward the resilience,

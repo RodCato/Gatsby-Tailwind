@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import Modal from "react-modal"
 import "./layout.css"
-
+// this is the contact form that uses a modal for the form elements
+// the modal is a package that is installed with npm
 const Contact = () => {
   const modalRef = React.useRef(null)
   const [modalOpen, setModalOpen] = useState(false)
