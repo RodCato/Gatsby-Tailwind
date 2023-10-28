@@ -26,7 +26,7 @@ const Experience = () => {
 
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-2">
-            Software Engineer - Specializing in Ruby on Rails, Web Development &
+            Software Engineer - Specializing in Ruby on Rails, Mobile and Web Development &
             Agile Methodologies
           </h3>
           <p className="mb-2 text-gray-600">LoadUp · Internship</p>
