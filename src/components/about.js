@@ -35,12 +35,14 @@ const About = () => {
 
       <p>
         <a
-          href="https://crod.co/resume"
+          href="https://www.linkedin.com/in/catalinorodriguez/details/recommendations/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View my resume"
         >
-          <div className="underline">📝&nbsp;View my recommendations on LinkedIn</div>
+          <div className="underline">
+            📝&nbsp;View my recommendations on LinkedIn
+          </div>
         </a>
       </p>
 
