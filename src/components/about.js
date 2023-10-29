@@ -20,16 +20,28 @@ const About = () => {
         ✨ Full Stack Software Engineer 💻
       </h2>
       <p class="about__desc">
-        👋🏽 Hey there, I am Catalino (aka C Rod), a US Army Combat Veteran🪖. I've carried forward the resilience,
-        adaptability, and team spirit from my military days into the tech world.
+        👋🏽 Hey there, I am Catalino (aka C Rod), a US Army Combat Veteran🪖.
+        I've carried forward the resilience, adaptability, and team spirit from
+        my military days into the tech world.
         <br /> <br />
         As a Software Engineer intern, I've amassed experience in crafting
         impactful web solutions that cater to both clients and end-users.
         <br /> <br />
-        Known for my creative problem-solving, I excel under pressure and seamlessly
-        collaborate across diverse teams. Driven by a desire to innovate and
-        help others, I'm dedicated to harnessing technology to create meaningful
-        change.
+        Known for my creative problem-solving, I excel under pressure and
+        seamlessly collaborate across diverse teams. Driven by a desire to
+        innovate and help others, I'm dedicated to harnessing technology to
+        create meaningful change.
+      </p>
+
+      <p>
+        <a
+          href="https://crod.co/resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View my resume"
+        >
+          <div className="underline">📝&nbsp;View my recommendations on LinkedIn</div>
+        </a>
       </p>
 
       <div className="about__contact center">
