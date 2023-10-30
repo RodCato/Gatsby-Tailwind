@@ -11,7 +11,7 @@ const About = () => {
       </h1>
 
       <StaticImage
-        src="../images/bluebgprofile.png"
+        src="../images/crodcartoon.png"
         alt="profile pic"
         className="w-36 h-36 sm:w-60 sm:h-60 profilepic"
       />
