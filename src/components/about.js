@@ -32,7 +32,7 @@ const About = () => {
         innovate and help others, I'm dedicated to harnessing technology to
         create meaningful change.
       </p>
-
+<br />
       <p>
         <a
           href="https://crod.co/recommendations"
@@ -41,7 +41,7 @@ const About = () => {
           aria-label="View my resume"
         >
           <div className="underline">
-            📝&nbsp;View my recommendations on LinkedIn
+            📝&nbsp;View Recommendations from my LinkedIn Connects🔗
           </div>
         </a>
       </p>
