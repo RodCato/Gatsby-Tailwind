@@ -74,7 +74,7 @@ const Layout = () => {
               aria-label="Scroll up"
               href="#top"
               onClick={scrollToTop}
-              className="text-white bg-blue-500 rounded-full p-3"
+              className="text-white bg-blue-500 p-2"
             >
               <FontAwesomeIcon icon={faCircleArrowUp} />
             </a>
