@@ -378,7 +378,7 @@ main {
 .scroll-top {
   position: fixed;
   bottom: 4.5em;
-  right: 0.5em;
+  right: 0.1em;
   background-color: transparent;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
