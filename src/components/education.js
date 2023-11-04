@@ -6,7 +6,7 @@ const Education = () => {
     <>
       <div id="education" className="section education mt-8">
         <h2 className="section__title">🎓 Education</h2>
-
+        <div className="project">
         <div className="mb-6 flex justify-center items-center">
           {/* <a
             href="https://your-link-to-learn-academy"
@@ -89,7 +89,8 @@ const Education = () => {
             Leadership · Problem Solving · Back-End Web Development · Software
             Development · API · GitHub · CSS · Git · JavaScript · Programming
           </p>
-        </div>
+          </div>
+          </div>
       </div>
     </>
   )
