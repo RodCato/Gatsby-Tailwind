@@ -215,8 +215,7 @@ button {
 .profilepic {
   border-radius: 50%;
   display: flex;
-  box-shadow: #2978b5;
-  
+  box-shadow: 7px 20px 20px rgba(0, 0, 0, 1);
 }
 
 .projectpic {
