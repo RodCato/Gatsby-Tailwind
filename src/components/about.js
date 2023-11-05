@@ -14,7 +14,6 @@ const About = () => {
         src="../images/crodcartoon1.png"
         alt="profile pic"
         className="w-36 h-36 sm:w-60 sm:h-60 profilepic text-center mb-6"
-        style={{ boxShadow: "5px 20px 20px rgba(0, 0, 0, 1)" }}
       />
       <div className="project">
         <h2 className="about__role text-2xl sm:text-5xl font-bold">
